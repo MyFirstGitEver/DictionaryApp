@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8203900A2A9C8C4A00F73903 /* MinEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820390092A9C8C4A00F73903 /* MinEdit.swift */; };
+		8203900C2A9C8EDF00F73903 /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203900B2A9C8EDF00F73903 /* WordView.swift */; };
+		8203900E2A9C900100F73903 /* WordContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203900D2A9C900100F73903 /* WordContext.swift */; };
+		820390112A9C904C00F73903 /* Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820390102A9C904C00F73903 /* Definition.swift */; };
+		820390142A9C986A00F73903 /* Meaning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820390132A9C986A00F73903 /* Meaning.swift */; };
+		820390162A9C9DD200F73903 /* ContextEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820390152A9C9DD200F73903 /* ContextEntity.swift */; };
+		820390182A9C9E0800F73903 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820390172A9C9E0800F73903 /* APICaller.swift */; };
+		8203901B2A9C9E4500F73903 /* DataConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203901A2A9C9E4500F73903 /* DataConverter.swift */; };
+		8203901D2A9C9E9900F73903 /* PhoneticEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203901C2A9C9E9900F73903 /* PhoneticEntity.swift */; };
+		8203901F2A9C9F2D00F73903 /* MeaningEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203901E2A9C9F2D00F73903 /* MeaningEntity.swift */; };
+		820390212A9C9F6C00F73903 /* DefinitionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820390202A9C9F6C00F73903 /* DefinitionEntity.swift */; };
+		820390232A9D8A8800F73903 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820390222A9D8A8800F73903 /* SearchResult.swift */; };
 		82494BCF2A9C6BB300EF6602 /* DictionaryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82494BCE2A9C6BB300EF6602 /* DictionaryAppApp.swift */; };
 		82494BD12A9C6BB300EF6602 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82494BD02A9C6BB300EF6602 /* ContentView.swift */; };
 		82494BD32A9C6BB500EF6602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82494BD22A9C6BB500EF6602 /* Assets.xcassets */; };
@@ -14,6 +26,7 @@
 		82494BE02A9C6BB600EF6602 /* DictionaryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82494BDF2A9C6BB600EF6602 /* DictionaryAppTests.swift */; };
 		82494BEA2A9C6BB600EF6602 /* DictionaryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82494BE92A9C6BB600EF6602 /* DictionaryAppUITests.swift */; };
 		82494BEC2A9C6BB600EF6602 /* DictionaryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82494BEB2A9C6BB600EF6602 /* DictionaryAppUITestsLaunchTests.swift */; };
+		82494BF92A9C70F000EF6602 /* oxford_3000.json in Resources */ = {isa = PBXBuildFile; fileRef = 82494BF82A9C70EF00EF6602 /* oxford_3000.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		820390092A9C8C4A00F73903 /* MinEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinEdit.swift; sourceTree = "<group>"; };
+		8203900B2A9C8EDF00F73903 /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
+		8203900D2A9C900100F73903 /* WordContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordContext.swift; sourceTree = "<group>"; };
+		820390102A9C904C00F73903 /* Definition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Definition.swift; sourceTree = "<group>"; };
+		820390132A9C986A00F73903 /* Meaning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meaning.swift; sourceTree = "<group>"; };
+		820390152A9C9DD200F73903 /* ContextEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextEntity.swift; sourceTree = "<group>"; };
+		820390172A9C9E0800F73903 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		8203901A2A9C9E4500F73903 /* DataConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConverter.swift; sourceTree = "<group>"; };
+		8203901C2A9C9E9900F73903 /* PhoneticEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneticEntity.swift; sourceTree = "<group>"; };
+		8203901E2A9C9F2D00F73903 /* MeaningEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningEntity.swift; sourceTree = "<group>"; };
+		820390202A9C9F6C00F73903 /* DefinitionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionEntity.swift; sourceTree = "<group>"; };
+		820390222A9D8A8800F73903 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		82494BCB2A9C6BB300EF6602 /* DictionaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictionaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82494BCE2A9C6BB300EF6602 /* DictionaryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryAppApp.swift; sourceTree = "<group>"; };
 		82494BD02A9C6BB300EF6602 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +69,7 @@
 		82494BE52A9C6BB600EF6602 /* DictionaryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82494BE92A9C6BB600EF6602 /* DictionaryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryAppUITests.swift; sourceTree = "<group>"; };
 		82494BEB2A9C6BB600EF6602 /* DictionaryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82494BF82A9C70EF00EF6602 /* oxford_3000.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = oxford_3000.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +97,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8203900F2A9C903E00F73903 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				820390152A9C9DD200F73903 /* ContextEntity.swift */,
+				820390172A9C9E0800F73903 /* APICaller.swift */,
+				8203901A2A9C9E4500F73903 /* DataConverter.swift */,
+				8203901C2A9C9E9900F73903 /* PhoneticEntity.swift */,
+				8203901E2A9C9F2D00F73903 /* MeaningEntity.swift */,
+				820390202A9C9F6C00F73903 /* DefinitionEntity.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		820390122A9C97FD00F73903 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				82494BD02A9C6BB300EF6602 /* ContentView.swift */,
+				8203900B2A9C8EDF00F73903 /* WordView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		820390192A9C9E1C00F73903 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				8203900D2A9C900100F73903 /* WordContext.swift */,
+				820390102A9C904C00F73903 /* Definition.swift */,
+				820390132A9C986A00F73903 /* Meaning.swift */,
+				820390222A9D8A8800F73903 /* SearchResult.swift */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
 		82494BC22A9C6BB300EF6602 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +153,14 @@
 		82494BCD2A9C6BB300EF6602 /* DictionaryApp */ = {
 			isa = PBXGroup;
 			children = (
+				820390192A9C9E1C00F73903 /* objects */,
+				820390122A9C97FD00F73903 /* views */,
+				8203900F2A9C903E00F73903 /* api */,
+				82494BF82A9C70EF00EF6602 /* oxford_3000.json */,
 				82494BCE2A9C6BB300EF6602 /* DictionaryAppApp.swift */,
-				82494BD02A9C6BB300EF6602 /* ContentView.swift */,
 				82494BD22A9C6BB500EF6602 /* Assets.xcassets */,
 				82494BD42A9C6BB500EF6602 /* Preview Content */,
+				820390092A9C8C4A00F73903 /* MinEdit.swift */,
 			);
 			path = DictionaryApp;
 			sourceTree = "<group>";
@@ -233,6 +296,7 @@
 			files = (
 				82494BD62A9C6BB500EF6602 /* Preview Assets.xcassets in Resources */,
 				82494BD32A9C6BB500EF6602 /* Assets.xcassets in Resources */,
+				82494BF92A9C70F000EF6602 /* oxford_3000.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +321,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820390162A9C9DD200F73903 /* ContextEntity.swift in Sources */,
+				820390212A9C9F6C00F73903 /* DefinitionEntity.swift in Sources */,
+				8203900C2A9C8EDF00F73903 /* WordView.swift in Sources */,
+				8203900A2A9C8C4A00F73903 /* MinEdit.swift in Sources */,
+				8203900E2A9C900100F73903 /* WordContext.swift in Sources */,
+				820390182A9C9E0800F73903 /* APICaller.swift in Sources */,
+				8203901D2A9C9E9900F73903 /* PhoneticEntity.swift in Sources */,
+				8203901F2A9C9F2D00F73903 /* MeaningEntity.swift in Sources */,
+				820390232A9D8A8800F73903 /* SearchResult.swift in Sources */,
 				82494BD12A9C6BB300EF6602 /* ContentView.swift in Sources */,
+				8203901B2A9C9E4500F73903 /* DataConverter.swift in Sources */,
 				82494BCF2A9C6BB300EF6602 /* DictionaryAppApp.swift in Sources */,
+				820390142A9C986A00F73903 /* Meaning.swift in Sources */,
+				820390112A9C904C00F73903 /* Definition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
